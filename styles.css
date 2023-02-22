@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teslaImg {
+    height: 400px;
+    width: 666px;
+}
