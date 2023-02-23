@@ -86,11 +86,11 @@ a {
     align-items: center;
 }
 
-.infoHeader {
+.infoHeader {align-content: center;
     font-weight: bolder;
     font-size: 36px;
     color: #1F2937;
-    margin: 40px 0px;
+    margin: 50px 0px;
 }
 
 .thirdContainer {
@@ -137,6 +137,7 @@ a {
 
 .fifth {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 100px 0px;
 }
@@ -147,8 +148,9 @@ a {
     background-color: #3882F6;
     color: white;
     width: 800px;
-    padding: 15px 100px;
+    padding: 35px 100px;
     border-radius: 7px;
+    align-items: center;
 }
 
 .fifthContentDiv p {
@@ -157,6 +159,13 @@ a {
 
 .fifthButton {
     margin-left: 25px;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    height: 25px;
+    width: 100px;
 }
 
 .actionText {
