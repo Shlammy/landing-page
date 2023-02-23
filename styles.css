@@ -1,9 +1,168 @@
-.header {
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .footer {
     display: flex;
+    flex-shrink: 0;
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    align-items: center;
+    padding: 0px 610px;
+}
+
+.header {
     justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.header p {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.footer {
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    height: 300px;
+    padding-bottom: 100px;
+}
+
+.secondContainer {
+    padding-right: 50px;
+}
+
+.awesomeText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.subtext {
+    margin-top: 0px;
+    opacity: 0.8;
 }
 
 .teslaImg {
-    height: 400px;
-    width: 666px;
+    height: 200px;
+    width: 400px;
+}
+
+.secondButton {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 6px 25px;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoHeader {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 40px 0px;
+}
+
+.thirdContainer {
+    display: flex;
+    text-align: center;
+    height: 350px;
+    gap: 50px;
+}
+
+.thirdContainer img {
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+}
+
+.thirdContainer p {
+    margin: 5px;
+}
+
+.fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 410px;
+}
+
+.quoteName {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937af;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.fifthContentDiv {
+    display: flex;
+    gap: 125px;
+    background-color: #3882F6;
+    color: white;
+    width: 800px;
+    padding: 15px 100px;
+    border-radius: 7px;
+}
+
+.fifthContentDiv p {
+    margin: 5px 0px;
+}
+
+.fifthButton {
+    margin-left: 25px;
+}
+
+.actionText {
+    opacity: 0.8;
+}
+
+.footer {
+    height: 100px;
 }
