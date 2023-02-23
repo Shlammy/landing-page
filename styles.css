@@ -10,12 +10,18 @@ body {
     color: white;
     height: 50px;
     align-items: center;
-    padding: 0px 610px;
 }
 
 .header {
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 30px;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 800px;
 }
 
 .header p {
